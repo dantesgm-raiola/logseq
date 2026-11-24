@@ -369,8 +369,8 @@
  :command.editor/toggle-open-blocks "切换折叠/展开所有块（非编辑状态）"
  :command.editor/undo "撤销"
  :command.editor/up "向上移动光标 / 向上选择"
- :command.editor/zoom-in "聚焦"
- :command.editor/zoom-out "退出聚焦"
+ :command.editor/zoom-in "聚焦当前编辑的块"
+ :command.editor/zoom-out "退出当前编辑块的聚焦视图"
 
  :command.go/all-graphs "所有图谱"
  :command.go/all-pages "全部页面"
@@ -768,6 +768,8 @@
  :graph/left "已离开图谱。"
  :graph/link-count "{1} 条链接"
  :graph/local-graphs "本地图谱"
+ :graph/location-choose "选择文件夹"
+ :graph/location-label "存储位置"
  :graph/name-placeholder "你的知识库名称"
  :graph/no-selected-node "未选中图谱节点。"
  :graph/node-count (fn [n] (str n " 个节点"))

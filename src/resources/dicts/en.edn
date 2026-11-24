@@ -369,8 +369,8 @@
  :command.editor/toggle-open-blocks "Toggle open blocks (collapse or expand all blocks)"
  :command.editor/undo "Undo"
  :command.editor/up "Move cursor up / Select up"
- :command.editor/zoom-in "Zoom in editing block / Forwards otherwise"
- :command.editor/zoom-out "Zoom out editing block / Backwards otherwise"
+ :command.editor/zoom-in "Zoom in editing block"
+ :command.editor/zoom-out "Zoom out editing block"
 
  :command.go/all-graphs "Go to all graphs"
  :command.go/all-pages "Go to all pages"
@@ -768,6 +768,8 @@
  :graph/left "Left graph."
  :graph/link-count (fn [n] (str n " " (if (= 1 n) "link" "links")))
  :graph/local-graphs "Local graphs:"
+ :graph/location-choose "Choose folder"
+ :graph/location-label "Location"
  :graph/name-placeholder "your graph name"
  :graph/no-selected-node "No graph node selected."
  :graph/node-count (fn [n] (str n " " (if (= 1 n) "node" "nodes")))
